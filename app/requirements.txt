@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+yfinance
+polygon-api-client
+kafka-python
+python-dotenv
