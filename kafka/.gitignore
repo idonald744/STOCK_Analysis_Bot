@@ -1,0 +1,35 @@
+# Ignore Kafka data, logs, and binaries
+kafka/data/
+kafka/logs/
+kafka/bin/
+zookeeper/
+
+# Ignore Docker-specific files
+.dockerignore
+.env
+
+# Ignore Python environment and cache
+__pycache__/
+*.py[cod]
+env/
+venv/
+*.log
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore node_modules (if applicable)
+node_modules/
+
+# Ignore build artifacts
+*.out
+*.class
+*.jar
+*.war
+*.o
+*.so
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
